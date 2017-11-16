@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+
+    <script src="js/echarts.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+
+</head>
+
+<style>
+
+    .map-warp{
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        top: 100px;
+
+
+    }
+    .line-warp{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 80%;
+        top: 50px;
+    }
+
+</style>
+<body>
+
+    <!--地图容器-->
+    <div class="map-warp" id="map-warp"></div>
+    <!--折线图容器-->
+    <div class="line-warp" id="line-warp"></div>
+
+<!--视图渲染-->
+<script type="text/javascript">
+    var mapChart = echarts.init(document.getElementById('map-warp'));
+    var lineChart = echarts.init(document.getElementById('line-warp'));
+
+    <!--echarts map-warp视图渲染-->
+    option = {
+        title : {
+            text: '2017全国各省省会城市房价',
+            x:'center'
+        },
+        tooltip : {
+            trigger: 'item'
+        },
+//        legend: {
+//            orient: 'vertical',
+//            x:'right',
+//            y:'top',
+//            data:['2017全国各省省会城市房价']
+//        },
+        dataRange: {
+            min: 4000,
+            max: 50000,
+            x: 'right',
+            y: 'bottom',
+            text:['高','低'],           // 文本，默认为数值文本
+            calculable : true
+        },
+//        toolbox: {
+//            show: true,
+//            orient : 'vertical',
+//            x: 'right',
+//            y: 'center',
+//            feature : {
+//                mark : {show: true},
+//                dataView : {show: true, readOnly: false},           //数据视图
+//                restore : {show: true},                              //还原
+//                saveAsImage : {show: true}                          //保存图片
+//            }
+//        },
+        roamController: {
+            show: true,
+            x: 'right',
+            mapTypeControl: {
+                'china': true
+            }
+        },
+        series : [
+            {
+                name: '2017全国各省省会城市房价',
+                type: 'map',
+                mapType: 'china',
+
+                roam: false,
+                itemStyle:{
+                    normal:{label:{show:true}},
+                    emphasis:{label:{show:true}}
+                },
+                data:[
+                    {name: '北京',value: 41292},
+                    {name: '天津',value: 13621},
+                    {name: '上海',value: 45847},
+                    {name: '重庆',value: 7507},
+                    {name: '河北',value: 8511},
+                    {name: '河南',value: 5406},
+                    {name: '云南',value: 8005},
+                    {name: '辽宁',value: 6788},
+                    {name: '黑龙江',value: 7329},
+                    {name: '湖南',value: 7154},
+                    {name: '安徽',value: 10677},
+                    {name: '山东',value: 17800},
+                    {name: '新疆',value: 7084},
+                    {name: '江苏',value: 25830},
+                    {name: '浙江',value: 22129},
+                    {name: '江西',value: 11357},
+                    {name: '湖北',value: 16223},
+                    {name: '广西',value: 9293},
+                    {name: '甘肃',value: 9878},
+                    {name: '山西',value: 9382},
+                    {name: '内蒙古',value: 7697},
+                    {name: '陕西',value:6871},
+                    {name: '吉林',value: 7362},
+                    {name: '福建',value: 47930},
+                    {name: '贵州',value:7218},
+                    {name: '广东',value:55040},
+                    {name: '青海',value:6317},
+                    {name: '西藏',value:8947},
+                    {name: '四川',value:8234},
+                    {name: '宁夏',value:4996},
+//                    {name: '海南',value:0},
+//                    {name: '台湾',value:0},
+//                    {name: '香港',value:0},
+//                    {name: '澳门',value:0}
+                ]
+            }
+        ]
+    };
+    $.get('china.json', function (chinaJson) {
+        echarts.registerMap('china', chinaJson);
+        mapChart.setOption(
+            option
+        );
+    });
+//    mapChart.setOption(option);
+
+    <!--echarts line-warp视图渲染-->
+    var data = [
+        [5000, 10000, 6785.71],
+        [4000, 10000, 6825],
+        [3000, 6500, 4463.33],
+        [2500, 5600, 3793.83],
+        [2000, 4000, 3060],
+        [2000, 4000, 3222.33],
+        [2500, 4000, 3133.33],
+        [1800, 4000, 3100],
+        [2000, 3500, 2750],
+        [2000, 3000, 2500],
+        [1800, 3000, 2433.33],
+        [2000, 2700, 2375],
+        [1500, 2800, 2150],
+        [1500, 2300, 2100],
+        [1600, 3500, 2057.14],
+        [1500, 2600, 2037.5],
+        [1500, 2417.54, 1905.85],
+        [1500, 2000, 1775],
+        [1500, 1800, 1650],
+
+    ];
+
+    var cities = ['北京','天津', '上海','重庆', '河北', '河南', '云南','辽宁', '黑龙江', '湖南', '安徽', '山东', '新疆', '江苏', '浙江',
+                    '江西', '湖北', '广西', '甘肃','山西', '内蒙古','陕西', '吉林', '福建', '贵州', '广东', '青海', '西藏','四川', '宁夏'];
+    var barHeight = 50;
+
+    lineoption = {
+
+        legend: {
+            show: true,
+            data: ['价格范围', '均值']
+        },
+        grid: {
+            top: 100
+        },
+        angleAxis: {
+            type: 'category',
+            data: cities
+        },
+        tooltip: {
+            show: true,
+            formatter: function (params) {
+                var id = params.dataIndex;
+                return cities[id] + '<br>最低：' + data[id][0] + '<br>最高：' + data[id][1] + '<br>平均：' + data[id][2];
+            }
+        },
+        radiusAxis: {
+        },
+        polar: {
+        },
+        series: [{
+            type: 'bar',
+            itemStyle: {
+                normal: {
+                    color: 'transparent'
+                }
+            },
+            data: data.map(function (d) {
+                return d[0];
+            }),
+            coordinateSystem: 'polar',
+            stack: '最大最小值',
+            silent: true
+        }, {
+            type: 'bar',
+            data: data.map(function (d) {
+                return d[1] - d[0];
+            }),
+            coordinateSystem: 'polar',
+            name: '价格范围',
+            stack: '最大最小值'
+        }, {
+            type: 'bar',
+            itemStyle: {
+                normal: {
+                    color: 'transparent'
+                }
+            },
+            data: data.map(function (d) {
+                return d[2] - barHeight;
+            }),
+            coordinateSystem: 'polar',
+            stack: '均值',
+            silent: true,
+            z: 10
+        }, {
+            type: 'bar',
+            data: data.map(function (d) {
+                return barHeight * 2
+            }),
+            coordinateSystem: 'polar',
+            name: '均值',
+            stack: '均值',
+            barGap: '-100%',
+            z: 10
+        }],
+        legend: {
+            show: true,
+            data: ['A', 'B', 'C']
+        }
+    };
+    lineChart.setOption(lineoption);
+
+
+</script>
+
+</body>
+</html>
