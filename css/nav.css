@@ -18,9 +18,9 @@ a{text-decoration:none;}
 .nav-item>a:before{content: "";position: absolute;left: 0px;width: 2px;height: 46px;background: #34A0CE;opacity:0;transition: all .3s;}
 .nav .nav-icon{font-size: 20px;position: absolute;margin-left:-1px;}
 /* 此处修改导航图标 可自定义iconfont 替换*/
-.icon_1::after{content: "\e669";}
-.icon_2::after{content: "\e669";}
-.icon_3::after{content: "\e61d";}
+/*.icon_1::after{content: "\e264";}*/
+/*.icon_2::after{content: "\e669";}*/
+/*.icon_3::after{content: "\e61d";}*/
 /*---------------------*/
 .nav-more{float:right;margin-right: 20px;font-size: 12px;transition: transform .3s;}
 /* 此处为导航右侧箭头 如果自定义iconfont 也需要替换*/

@@ -12,8 +12,9 @@
 <style>
     #map-wrap{
         width: 100%;
-        height: 100%;
+        height: 105%;
         position: absolute;
+        overflow: hidden;
     }
 </style>
 
@@ -425,7 +426,10 @@
         title: {
             text: '全国主要城市房价可视化 - 百度地图',
             subtext: '数据来源安居客',
-            left: 'center'
+            left: 'center',
+            textStyle: {
+                color: '#d5d9dc'
+            },
         },
         tooltip : {
             trigger: 'item'
@@ -562,30 +566,20 @@
     function loadChart(city){
         switch (city){
             case "武汉":
-                var optionWUHAN = {
-                    title: {
-                        text: '2017成都房价'
-                    },
-                    tooltip: {},
-                    legend: {
-                        data: ['房价']
-                    },
-                    xAxis: {
-                        data: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月"]
-                    },
-                    yAxis: {},
-                    series: [{
-                        name: '价格',
-                        type: 'bar',
-                        data: [8674, 8698, 8973, 9403, 9636, 9839, 9992, 10185, 10562, 11068, 11417]
-                    }]
-                };
-                myChart.clear();
-                myChart.setOption(optionWUHAN);
+                loadPage('line.html')
                 break;
         }
     }
 </script>
+
+<script>
+    function loadPage(herf) {
+        $("#map-wrap").load(herf);
+    }
+
+    
+</script>
+
 </body>
 
 

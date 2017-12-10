@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>line</title>
+
+    <script src="js/echarts.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+
+
+    <style>
+        #line{
+            height: 100%;
+            padding-left: 220px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="line"></div>
+
+<script>
+    var myChart = echarts.init(document.getElementById('line'));
+
+    var optionWUHAN = {
+        title: {
+            text: '武汉房价趋势',
+            textStyle: {
+                color: '#d5d9dc'
+            },
+        },
+
+        tooltip: {
+            trigger: 'axis',
+        },
+        legend: {
+            data: ['2017年','2016年'],
+            textStyle: {
+                color: '#d5d9dc'
+            },
+        },
+        xAxis: {
+//            data: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月"]
+            data:[]
+        },
+        yAxis: {},
+        series: [{
+            name: '2017年',
+            type: 'line',
+//            data: [8674, 8698, 8973, 9403, 9636, 9839, 9992, 10185, 10562, 11068, 11417],
+
+            lineStyle: {
+                normal: {
+                    width: 2,
+                    color: '#FFE65E'
+                }
+            },
+            markPoint : {
+                data : [
+                    {type : 'max', name: '最大值'},
+                    {type : 'min', name: '最小值'}
+                ],
+                itemStyle: {
+                    normal: {
+                        borderColor: '#FFE65E',
+                        color: '#FFE65E'
+                    }
+                }
+            },
+            markLine : {
+                data : [
+                    {type : 'average', name: '平均值'}
+                ],
+                lineStyle: {
+                    normal: {
+                        width: 2,
+                        color: '#FFE65E'
+                    }
+                },
+            },
+            data:[]
+        },{
+            name: '2016年',
+            type: 'line',
+            data: [6674, 6698, 7973, 8403, 7636, 5839, 5992, 7185, 8562, 7068, 9417],
+            lineStyle: {
+                normal: {
+                    width: 2,
+                    color: '#e7b7be'
+                }
+            },
+            markPoint : {
+                data : [
+                    {type : 'max', name: '最大值'},
+                    {type : 'min', name: '最小值'}
+                ],
+                itemStyle: {
+                    normal: {
+                        borderColor: '#e7b7be',
+                        color: '#e7b7be'
+                    }
+                }
+            },
+            markLine : {
+                data : [
+                    {type : 'average', name: '平均值'}
+                ],
+                lineStyle: {
+                    normal: {
+                        width: 2,
+                        color: '#e7b7be'
+                    }
+                },
+            }
+        }]
+    };
+
+
+    //myChart.clear();
+    myChart.setOption(optionWUHAN);
+
+    //打开loading动画
+    myChart.showLoading();
+    //加载数据函数
+    function bindData(){
+        //为了效果明显，我们做了延迟读取数据
+        setTimeout(function(){
+            //异步加载数据
+            $.get('data.json').done(function (data) {
+                //获取数据后，隐藏loading动画
+                myChart.hideLoading();
+                //data = eval('('+data+')');
+                myChart.setOption({
+                    xAxis:{
+                        data:data.month
+                    },
+                    series:[
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2017年",
+                            data:data.data
+                        }
+                    ]
+                })
+            })
+        },2000)
+    }
+
+    bindData();
+
+
+    //myChart.setOption(option);
+
+</script>
+</body>
+</html>

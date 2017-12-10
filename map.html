@@ -6,25 +6,28 @@
 
     <script src="js/echarts.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/shine.js"></script>
 
 </head>
 
 <style>
-
     .map-warp{
-        width: 100%;
-        height: 600px;
-        position: absolute;
-        top: 100px;
-
+        width: 95%;
+        height: 95%;
+        position: relative;
+        z-index: 6;
 
     }
     .line-warp{
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        left: 80%;
-        top: 50px;
+        width: 400px;
+        height: 380px;
+        position: relative;
+        bottom: 68%;
+        left: 1030px;
+        /*margin-left: 1020px;*/
+        right: 0;
+        z-index: 10;
+
     }
 
 </style>
@@ -37,15 +40,20 @@
 
 <!--视图渲染-->
 <script type="text/javascript">
-    var mapChart = echarts.init(document.getElementById('map-warp'));
-    var lineChart = echarts.init(document.getElementById('line-warp'));
+    var mapChart = echarts.init(document.getElementById('map-warp'),'shine');
+    var lineChart = echarts.init(document.getElementById('line-warp'),'shine');
 
     <!--echarts map-warp视图渲染-->
     option = {
+
         title : {
             text: '2017全国各省省会城市房价',
-            x:'center'
+            x:'center',
+            textStyle: {
+                color: '#d5d9dc'
+            },
         },
+
         tooltip : {
             trigger: 'item'
         },
@@ -58,10 +66,14 @@
         dataRange: {
             min: 4000,
             max: 50000,
-            x: 'right',
+            x: '250px',
             y: 'bottom',
             text:['高','低'],           // 文本，默认为数值文本
-            calculable : true
+            calculable : true,
+            textStyle: {
+                color: '#d5d9dc'
+            },
+            orient: 'horizontal'
         },
 //        toolbox: {
 //            show: true,
@@ -80,7 +92,8 @@
             x: 'right',
             mapTypeControl: {
                 'china': true
-            }
+            },
+
         },
         series : [
             {
@@ -89,8 +102,17 @@
                 mapType: 'china',
 
                 roam: false,
+
                 itemStyle:{
-                    normal:{label:{show:true}},
+                    normal:{
+                        label:{
+                            show:true
+                        },
+                        borderColor: '#395d9d',
+                        borderWidth: 2,
+                        shadowColor: '#a8cde4',
+                        shadowBlur: 4
+                    },
                     emphasis:{label:{show:true}}
                 },
                 data:[
@@ -166,14 +188,14 @@
 
     var cities = ['北京','天津', '上海','重庆', '河北', '河南', '云南','辽宁', '黑龙江', '湖南', '安徽', '山东', '新疆', '江苏', '浙江',
                     '江西', '湖北', '广西', '甘肃','山西', '内蒙古','陕西', '吉林', '福建', '贵州', '广东', '青海', '西藏','四川', '宁夏'];
+
     var barHeight = 50;
 
-    lineoption = {
-
-        legend: {
-            show: true,
-            data: ['价格范围', '均值']
+    var lineoption = {
+        textStyle: {
+            color: '#d5d9dc'
         },
+
         grid: {
             top: 100
         },
@@ -197,7 +219,8 @@
             itemStyle: {
                 normal: {
                     color: 'transparent'
-                }
+                },
+
             },
             data: data.map(function (d) {
                 return d[0];
@@ -210,6 +233,14 @@
             data: data.map(function (d) {
                 return d[1] - d[0];
             }),
+            itemStyle: {
+                normal: {
+                    color: '#e7b7be'
+                },
+                emphasis: {
+                    color: '#FFE65E'
+                }
+            },
             coordinateSystem: 'polar',
             name: '价格范围',
             stack: '最大最小值'
@@ -238,12 +269,40 @@
             barGap: '-100%',
             z: 10
         }],
-        legend: {
-            show: true,
-            data: ['A', 'B', 'C']
-        }
+
     };
     lineChart.setOption(lineoption);
+
+    echarts.connect([mapChart,lineChart]);
+
+
+    mapChart.on('click', function (param){
+        var city = param.name;
+
+        for(var i=0;i<cities.length;i++){
+            if(city==cities[i]){
+                lineChart.dispatchAction({
+                    type: 'highlight',
+                    dataIndex: i
+                })
+            }
+        }
+
+    });
+
+    mapChart.on('dblclick', function (param){
+        var city = param.name;
+
+        for(var i=0;i<cities.length;i++){
+            if(city==cities[i]){
+                lineChart.dispatchAction({
+                    type: 'downplay',
+                    dataIndex: i
+                })
+            }
+        }
+
+    })
 
 
 </script>

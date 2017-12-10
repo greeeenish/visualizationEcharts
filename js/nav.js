@@ -18,10 +18,13 @@ $(function(){
     $('#mini').on('click',function(){
         if (!$('.nav').hasClass('nav-mini')) {
             $('.nav-item.nav-show').removeClass('nav-show');
+            //$('.main.main_active').removeClass('main_active');
             $('.nav-item').children('ul').removeAttr('style');
             $('.nav').addClass('nav-mini');
+            //$('.main').addClass('main_active');
         }else{
             $('.nav').removeClass('nav-mini');
+            //$('.main').removeClass('main_active');
         }
     });
 });
