@@ -119,49 +119,50 @@
             }
         },
 
-        gauge: {
-            axisLine: {
-                show: true,
-                lineStyle: {
-                    //color: [[0.2, '#2b821d'],[0.8, '#005eaa'],[1, '#c12e34']],
-                    // color: '#fff',
-                    width: 5
-                }
-            },
-            axisTick: {
-                splitNumber: 10,
-                length:8,
-                lineStyle: {
-                    color: '#d5d9dc'
-                }
-            },
-            axisLabel: {
-                textStyle: {
-                    color: '#d5d9dc'
-                }
-            },
-            splitLine: {
-                length: 12,
-                lineStyle: {
-                    color: '#d5d9dc'
-                }
-            },
-            pointer: {
-                length: '90%',
-                width: 3,
-                color: '#d5d9dc'
-            },
-            title: {
-                textStyle: {
-                    color: '#d5d9dc'
-                }
-            },
-            detail: {
-                textStyle: {
-                    color: '#d5d9dc'
-                }
-            }
-        }
+        // gauge: {
+        //     axisLine: {
+        //         show: true,
+        //         lineStyle: {
+        //             //color: [[0.2, '#2b821d'],[0.8, '#005eaa'],[1, '#c12e34']],
+        //             color: '#fff',
+        //             width: 5
+        //         }
+        //     },
+        //     axisTick: {
+        //         splitNumber: 10,
+        //         length:8,
+        //         lineStyle: {
+        //             color: '#d5d9dc'
+        //         }
+        //     },
+        //     axisLabel: {
+        //         show: true,
+        //         textStyle: {
+        //             color: '#d5d9dc'
+        //         }
+        //     },
+        //     splitLine: {
+        //         length: 12,
+        //         lineStyle: {
+        //             color: '#d5d9dc'
+        //         }
+        //     },
+        //     pointer: {
+        //         length: '90%',
+        //         width: 3,
+        //         color: '#d5d9dc'
+        //     },
+        //     title: {
+        //         textStyle: {
+        //             color: '#d5d9dc'
+        //         }
+        //     },
+        //     detail: {
+        //         textStyle: {
+        //             color: '#d5d9dc'
+        //         }
+        //     }
+        // }
     };
 
 

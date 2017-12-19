@@ -18,10 +18,10 @@
 <style>
     .main{
         height: 100%;
-        z-index: 0;
+        z-index: 5;
         /*background-color: rgba(7, 24, 42, 0.98);*/
         background-color: #1D2E51;
-        *overflow: hidden;
+        overflow: hidden;
 
 
     }
@@ -48,9 +48,42 @@
     .nav .nav-item .city a{
         margin-left: 45px;
     }
+    .nav ul .city{
+        height: 500px;
+        overflow: scroll;
+    }
+
+    #line-wrap{
+        height: 500px;
+        width: 800px;
+        border: 2px solid #d5d9dc;
+        box-shadow:2px 2px 2px 1px #666666;
+    }
+    #easyDialogTitle{
+        color: #d5d9dc;
+        font-size: 20px;
+    }
+    #closeBtn img{
+        width: 20px;
+        height: 20px;
+    }
+    .easyDialog_wrapper{
+        /*display: none;*/
+    }
+
 </style>
 
 <body>
+<!--easyDialog-->
+<!--<div class="easyDialog_wrapper" id="easyDialogWrapper" >-->
+    <!--<div class="easyDialog_content">-->
+        <!--<div class="easyDialog_title" id="easyDialogTitle">-->
+            <!--<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn"><img src="images/close.png"></a>-->
+            <!--房价趋势-->
+        <!--</div>-->
+        <!--<div id="line-wrap"></div>-->
+    <!--</div>-->
+<!--</div>-->
 <!--侧边导航-->
 <div class="nav">
     <div class="nav-top">
@@ -63,13 +96,60 @@
         <li class="nav-item">
             <a href="javascript:loadPage('scatterMap.html');"><img src="images/scatter.png"><span>主要城市房价情况</span><i class="my-icon nav-more"></i></a>
             <ul class="city">
-                <li><a herf="">北京</a></li>
-                <li><a herf="">上海</a></li>
-                <li><a herf="">成都</a></li>
+                <li><a href="javascript:loadLineDialog('北京');">北京</a></li>
+                <li><a href="javascript:loadLineDialog('上海');">上海</a></li>
+                <li><a href="javascript:loadLineDialog('成都');">成都</a></li>
+                <li><a href="javascript:loadLineDialog('武汉');">武汉</a></li>
+                <li><a href="javascript:loadLineDialog('广州');">广州</a></li>
+                <li><a href="javascript:loadLineDialog('太原');">太原</a></li>
+                <li><a href="javascript:loadLineDialog('沈阳');">沈阳</a></li>
+                <li><a href="javascript:loadLineDialog('银川');">银川</a></li>
+                <li><a href="javascript:loadLineDialog('西宁');">西宁</a></li>
+                <li><a href="javascript:loadLineDialog('呼和浩特');">呼和浩特</a></li>
+                <li><a href="javascript:loadLineDialog('西安');">西安</a></li>
+                <li><a href="javascript:loadLineDialog('重庆');">重庆</a></li>
+                <li><a href="javascript:loadLineDialog('南京');">南京</a></li>
+                <li><a href="javascript:loadLineDialog('贵阳');">贵阳</a></li>
+                <li><a href="javascript:loadLineDialog('乌鲁木齐');">乌鲁木齐</a></li>
+                <li><a href="javascript:loadLineDialog('郑州');">郑州</a></li>
+                <li><a href="javascript:loadLineDialog('哈尔滨');">哈尔滨</a></li>
+                <li><a href="javascript:loadLineDialog('石家庄');">石家庄</a></li>
+                <li><a href="javascript:loadLineDialog('长沙');">长沙</a></li>
+                <li><a href="javascript:loadLineDialog('合肥');">合肥</a></li>
+                <li><a href="javascript:loadLineDialog('兰州');">兰州</a></li>
+                <li><a href="javascript:loadLineDialog('南宁');">南宁</a></li>
+                <li><a href="javascript:loadLineDialog('南昌');">南昌</a></li>
+                <li><a href="javascript:loadLineDialog('天津');">天津</a></li>
+                <li><a href="javascript:loadLineDialog('拉萨');">拉萨</a></li>
+                <li><a href="javascript:loadLineDialog('昆明');">昆明</a></li>
+                <li><a href="javascript:loadLineDialog('杭州');">杭州</a></li>
+                <li><a href="javascript:loadLineDialog('济南');">济南</a></li>
+                <li><a href="javascript:loadLineDialog('海口');">海口</a></li>
+                <li><a href="javascript:loadLineDialog('福州');">福州</a></li>
+                <li><a href="javascript:loadLineDialog('长春');">长春</a></li>
+
+                <li><a href="javascript:loadLineDialog('大连');">大连</a></li>
+                <li><a href="javascript:loadLineDialog('无锡');">无锡</a></li>
+                <li><a href="javascript:loadLineDialog('宁波');">宁波</a></li>
+                <li><a href="javascript:loadLineDialog('温州');">温州</a></li>
+                <li><a href="javascript:loadLineDialog('苏州');">苏州</a></li>
+                <li><a href="javascript:loadLineDialog('厦门');">厦门</a></li>
+                <li><a href="javascript:loadLineDialog('青岛');">青岛</a></li>
+                <li><a href="javascript:loadLineDialog('洛阳');">洛阳</a></li>
+                <li><a href="javascript:loadLineDialog('深圳');">深圳</a></li>
+                <li><a href="javascript:loadLineDialog('珠海');">珠海</a></li>
+                <li><a href="javascript:loadLineDialog('桂林');">桂林</a></li>
+                <li><a href="javascript:loadLineDialog('三亚');">三亚</a></li>
+                <li><a href="javascript:loadLineDialog('绵阳');">绵阳</a></li>
+                <li><a href="javascript:loadLineDialog('汉中');">汉中</a></li>
+                <li><a href="javascript:loadLineDialog('黄石');">黄石</a></li>
+                <li><a href="javascript:loadLineDialog('大庆');">大庆</a></li>
+
+
             </ul>
         </li>
         <li class="nav-item">
-            <a href="javascript:;"><i class="my-icon nav-icon icon_3"></i><span>图3</span><i class="my-icon nav-more"></i></a>
+            <a href="javascript:loadPage('exp.html');"><img src="images/bar.png"><span>房价同比环比指数</span><i class="my-icon nav-more"></i></a>
         </li>
     </ul>
 </div>
@@ -78,11 +158,60 @@
 <div class="main" id="main"></div>
 
 <script>
+    $(document).ready(function () {
+        loadPage('map.html');
+    });
+
     function loadPage(herf) {
         $("#main").load(herf);
     }
 
-    loadPage('map.html');
+    function loadLineDialog(city) {
+        //document.getElementById('easyDialog_wrapper').style.display = 'block';
+        //为了效果明显，我们做了延迟读取数据
+        var lineChart = echarts.init(document.getElementById('line-wrap'));
+        document.getElementById('easyDialogTitle').innerHTML = '<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn"><img src="images/close.png"></a>'+
+            city+'房价趋势';
+        lineChart.setOption(optionLine);
+        lineChart.showLoading();
+        setTimeout(function(){
+            //异步加载数据
+            $.get('data/'+city+'.json').done(function (data) {
+                //获取数据后，隐藏loading动画
+                lineChart.hideLoading();
+                //data = eval('('+data+')');
+                lineChart.setOption({
+                    xAxis:{
+                        data: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月","12月"]
+                    },
+                    series:[
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2017年",
+                            data:data[0].price
+                        },
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2016年",
+                            data:data[1].price
+                        },
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2015年",
+                            data:data[2].price
+                        }
+                    ]
+                })
+            })
+        },2000);
+        easyDialog.open({
+            container: 'easyDialogWrapper',
+
+        });
+
+    }
+
+
 </script>
 
 

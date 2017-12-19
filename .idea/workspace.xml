@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bfcc69-4ebb-41ca-bf84-49d7e498f89d" name="Default" comment="" />
+    <list default="true" id="32bfcc69-4ebb-41ca-bf84-49d7e498f89d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easydialog/test_img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bar3D.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/三亚.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/上海.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/乌鲁木齐.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/兰州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/北京.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/南京.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/南宁.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/南昌.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/厦门.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/合肥.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/呼和浩特.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/哈尔滨.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/大庆.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/大连.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/天津.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/太原.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/宁波.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/广州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/成都.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/拉萨.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/无锡.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/昆明.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/杭州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/桂林.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/武汉.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/汉中.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/沈阳.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/洛阳.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/济南.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/海口.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/深圳.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/温州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/珠海.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/石家庄.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/福州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/绵阳.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/苏州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/西宁.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/西安.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/贵阳.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/郑州.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/重庆.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/银川.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/长春.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/长沙.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/青岛.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/黄石.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easydialog/easydialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easydialog/easydialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easydialog/easydialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easydialog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/shine.js" afterPath="$PROJECT_DIR$/js/shine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line.html" afterPath="$PROJECT_DIR$/line.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.html" afterPath="$PROJECT_DIR$/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scatterMap.html" afterPath="$PROJECT_DIR$/scatterMap.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,14 +76,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scatterMap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scatterMap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3801">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="71" column="82" lean-forward="false" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="395">
+              <caret line="151" column="75" lean-forward="false" selection-start-line="151" selection-start-column="75" selection-end-line="151" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -29,31 +99,31 @@
       <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2793">
-              <caret line="147" column="44" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="147" selection-end-column="44" />
+            <state relative-caret-position="539">
+              <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="160" column="28" lean-forward="true" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bar3D.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bar3D.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding>
-                <element signature="e#5571#7533#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="line.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/line.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -64,8 +134,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,6 +144,8 @@
       <find>getAxis</find>
       <find>scatter</find>
       <find>main</find>
+      <find>110</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -85,31 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/china.json" />
-        <option value="$PROJECT_DIR$/js/example2.js" />
-        <option value="$PROJECT_DIR$/scatter.html" />
-        <option value="$PROJECT_DIR$/js/dist/echarts.js" />
-        <option value="$PROJECT_DIR$/js/BMap.js" />
-        <option value="$PROJECT_DIR$/helloworld.html" />
-        <option value="$PROJECT_DIR$/js/example3.js" />
-        <option value="$PROJECT_DIR$/extension/bmap.js" />
-        <option value="$PROJECT_DIR$/extension/BMapView.js" />
-        <option value="$PROJECT_DIR$/extension/BMapModel.js" />
-        <option value="$PROJECT_DIR$/extension/BMapCoordSys.js" />
-        <option value="$PROJECT_DIR$/js/china.js" />
-        <option value="$PROJECT_DIR$/js/theme.js" />
-        <option value="$PROJECT_DIR$/js/mytheme.js" />
-        <option value="$PROJECT_DIR$/js/macarons.js" />
-        <option value="$PROJECT_DIR$/js/shine.js" />
-        <option value="$PROJECT_DIR$/js/nav.js" />
+        <option value="$PROJECT_DIR$/data/乌鲁木齐.json" />
+        <option value="$PROJECT_DIR$/data/兰州.json" />
+        <option value="$PROJECT_DIR$/data/北京.json" />
+        <option value="$PROJECT_DIR$/data/南京.json" />
+        <option value="$PROJECT_DIR$/data/南宁.json" />
+        <option value="$PROJECT_DIR$/data/南昌.json" />
+        <option value="$PROJECT_DIR$/data/合肥.json" />
+        <option value="$PROJECT_DIR$/data/呼和浩特.json" />
+        <option value="$PROJECT_DIR$/data/哈尔滨.json" />
+        <option value="$PROJECT_DIR$/data/天津.json" />
+        <option value="$PROJECT_DIR$/data/太原.json" />
+        <option value="$PROJECT_DIR$/data/广州.json" />
+        <option value="$PROJECT_DIR$/data/成都.json" />
+        <option value="$PROJECT_DIR$/data/拉萨.json" />
+        <option value="$PROJECT_DIR$/data/昆明.json" />
+        <option value="$PROJECT_DIR$/data/杭州.json" />
+        <option value="$PROJECT_DIR$/data/武汉.json" />
+        <option value="$PROJECT_DIR$/data/沈阳.json" />
+        <option value="$PROJECT_DIR$/data/济南.json" />
+        <option value="$PROJECT_DIR$/data/海口.json" />
+        <option value="$PROJECT_DIR$/data/石家庄.json" />
+        <option value="$PROJECT_DIR$/data/福州.json" />
+        <option value="$PROJECT_DIR$/data/西宁.json" />
+        <option value="$PROJECT_DIR$/data/西安.json" />
+        <option value="$PROJECT_DIR$/data/贵阳.json" />
+        <option value="$PROJECT_DIR$/data/郑州.json" />
+        <option value="$PROJECT_DIR$/data/重庆.json" />
+        <option value="$PROJECT_DIR$/data/银川.json" />
+        <option value="$PROJECT_DIR$/data/长春.json" />
+        <option value="$PROJECT_DIR$/data/长沙.json" />
+        <option value="$PROJECT_DIR$/data/三亚.json" />
+        <option value="$PROJECT_DIR$/data/大连.json" />
+        <option value="$PROJECT_DIR$/data/宁波.json" />
+        <option value="$PROJECT_DIR$/data/无锡.json" />
+        <option value="$PROJECT_DIR$/data/桂林.json" />
+        <option value="$PROJECT_DIR$/data/洛阳.json" />
+        <option value="$PROJECT_DIR$/data/深圳.json" />
+        <option value="$PROJECT_DIR$/data/珠海.json" />
+        <option value="$PROJECT_DIR$/data/绵阳.json" />
+        <option value="$PROJECT_DIR$/data/苏州.json" />
+        <option value="$PROJECT_DIR$/data/青岛.json" />
+        <option value="$PROJECT_DIR$/data/厦门.json" />
+        <option value="$PROJECT_DIR$/data/黄石.json" />
+        <option value="$PROJECT_DIR$/data/汉中.json" />
+        <option value="$PROJECT_DIR$/data/大庆.json" />
+        <option value="$PROJECT_DIR$/data/温州.json" />
         <option value="$PROJECT_DIR$/scatterMap.html" />
-        <option value="$PROJECT_DIR$/fonts/iconfont.css" />
-        <option value="$PROJECT_DIR$/fonts/iconfont.svg" />
-        <option value="$PROJECT_DIR$/css/nav.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/map.html" />
-        <option value="$PROJECT_DIR$/data.json" />
-        <option value="$PROJECT_DIR$/line.html" />
+        <option value="$PROJECT_DIR$/bar3D.html" />
+        <option value="$PROJECT_DIR$/exp.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,9 +217,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -149,17 +248,17 @@
             <path>
               <item name="Echarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Echarts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Echarts" type="b2602c69:ProjectViewProjectNode" />
               <item name="Echarts" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Echarts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,10 +277,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/dialog" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="D:\webstorm\WebstormProjects\Echarts" />
-      <recent name="D:\webstorm\WebstormProjects\Echarts\js" />
-      <recent name="D:\webstorm\WebstormProjects\Echarts\js\dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\webstorm\WebstormProjects\Echarts\js" />
@@ -298,18 +397,24 @@
       <workItem from="1512279160305" duration="6852000" />
       <workItem from="1512385091593" duration="260000" />
       <workItem from="1512548536121" duration="4680000" />
-      <workItem from="1512886300494" duration="197000" />
+      <workItem from="1512886300494" duration="7080000" />
+      <workItem from="1513134322237" duration="270000" />
+      <workItem from="1513161193183" duration="258000" />
+      <workItem from="1513342319879" duration="470000" />
+      <workItem from="1513497387842" duration="12478000" />
+      <workItem from="1513559513266" duration="23220000" />
+      <workItem from="1513646946791" duration="15179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108893000" />
+    <option name="totallyTimeSpent" value="167651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21388888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14722222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -335,128 +440,68 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/echarts/json以及示例/json以及示例/全国省市县Geo信息/mapdata/geometryProvince/63.json" />
-    <entry file="file://D:/echarts/json以及示例/json以及示例/全国省市县Geo信息/mapdata/geometryProvince/82.json" />
-    <entry file="file://D:/echarts/json以及示例/json以及示例/全国省市县Geo信息/mapdata/geometryProvince/11.json" />
-    <entry file="file://$PROJECT_DIR$/xian.js" />
-    <entry file="file://$PROJECT_DIR$/mapdata/china.json" />
-    <entry file="file://D:/可视化/demo/EchartsMap-master/index.html" />
-    <entry file="file://D:/可视化/201710241453/index.html" />
-    <entry file="file://$PROJECT_DIR$/fonts/iconfont.js">
+    <entry file="file://$PROJECT_DIR$/data/重庆.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dump.js" />
-    <entry file="file://$PROJECT_DIR$/js/example2.js" />
-    <entry file="file://$PROJECT_DIR$/js/dist/chart/k.js" />
-    <entry file="file://$PROJECT_DIR$/js/map.js" />
-    <entry file="file://D:/可视化/demo/EchartsBMapDemo-master/EchartsBMapDemo-master/js/example3.js" />
-    <entry file="file://$PROJECT_DIR$/js/dist/chart/scatter.js" />
-    <entry file="file://$PROJECT_DIR$/js/dist/echarts-all.js" />
-    <entry file="file://$PROJECT_DIR$/js/bmap.js">
+    <entry file="file://$PROJECT_DIR$/data/郑州.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="7" column="85" lean-forward="true" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dist/echarts.js" />
-    <entry file="file://$PROJECT_DIR$/scatter.html" />
-    <entry file="file://D:/可视化/demo/EchartsBMapDemo-master/EchartsBMapDemo-master/map/json/china.json" />
-    <entry file="file://$PROJECT_DIR$/js/dist/chart/map.js" />
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/extension/BMapModel.js" />
-    <entry file="file://$PROJECT_DIR$/extension/BMapView.js" />
-    <entry file="file://$PROJECT_DIR$/extension/BMapCoordSys.js" />
-    <entry file="file://$PROJECT_DIR$/extension/bmap.js" />
-    <entry file="file://$PROJECT_DIR$/js/bmap.js">
+    <entry file="file://$PROJECT_DIR$/data/贵阳.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld.html">
+    <entry file="file://$PROJECT_DIR$/data/西安.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="133">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/china.json" />
-    <entry file="file://$PROJECT_DIR$/js/china.js">
+    <entry file="file://$PROJECT_DIR$/data/西宁.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="38">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/data/福州.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="88" lean-forward="true" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/example3.js" />
-    <entry file="file://$PROJECT_DIR$/js/echarts.js">
+    <entry file="file://$PROJECT_DIR$/data/石家庄.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="12158" column="12" lean-forward="false" selection-start-line="12158" selection-start-column="12" selection-end-line="12158" selection-end-column="12" />
+        <state relative-caret-position="133">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="7800" column="15" lean-forward="false" selection-start-line="7800" selection-start-column="4" selection-end-line="7800" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/shine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customed.project.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mini.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/中国地图.svg" />
-    <entry file="file://$PROJECT_DIR$/css/htmleaf-demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2444">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/iconfont.svg" />
-    <entry file="file://$PROJECT_DIR$/fonts/icomoon.svg">
+    <entry file="file://$PROJECT_DIR$/data/北京.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -464,72 +509,348 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/iconfont.css">
+    <entry file="file://$PROJECT_DIR$/data/南宁.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="81" column="38" lean-forward="false" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state relative-caret-position="95">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/nav.css">
+    <entry file="file://$PROJECT_DIR$/data/吉林.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/scatter.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scatterMap.html">
+    <entry file="file://$PROJECT_DIR$/data/宁波.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="129" column="22" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="129" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/china.json">
+    <entry file="file://$PROJECT_DIR$/data/珠海.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="0" column="12828" lean-forward="true" selection-start-line="0" selection-start-column="12828" selection-end-line="0" selection-end-column="12828" />
+        <state relative-caret-position="95">
+          <caret line="5" column="238" lean-forward="false" selection-start-line="5" selection-start-column="238" selection-end-line="5" selection-end-column="238" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/绵阳.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/苏州.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="237" lean-forward="false" selection-start-line="8" selection-start-column="237" selection-end-line="8" selection-end-column="237" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/黄石.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="182" lean-forward="true" selection-start-line="2" selection-start-column="182" selection-end-line="2" selection-end-column="182" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/青岛.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="104" lean-forward="false" selection-start-line="6" selection-start-column="104" selection-end-line="6" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/三亚.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/上海.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/乌鲁木齐.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/兰州.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/北京.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/南京.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/南昌.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/厦门.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/合肥.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/呼和浩特.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/哈尔滨.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/大庆.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="182" lean-forward="false" selection-start-line="2" selection-start-column="182" selection-end-line="2" selection-end-column="182" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/大连.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/天津.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/拉萨.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/无锡.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="237" lean-forward="false" selection-start-line="6" selection-start-column="237" selection-end-line="6" selection-end-column="237" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/杭州.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/武汉.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/沈阳.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/洛阳.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="237" lean-forward="false" selection-start-line="5" selection-start-column="237" selection-end-line="5" selection-end-column="237" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/济南.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="89" lean-forward="true" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/海口.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/温州.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="191" lean-forward="false" selection-start-line="2" selection-start-column="191" selection-end-line="2" selection-end-column="191" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/深圳.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="246" lean-forward="false" selection-start-line="8" selection-start-column="246" selection-end-line="8" selection-end-column="246" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/广州.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/汉中.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="182" lean-forward="false" selection-start-line="2" selection-start-column="182" selection-end-line="2" selection-end-column="182" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/桂林.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/昆明.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2464" column="47" lean-forward="false" selection-start-line="2464" selection-start-column="47" selection-end-line="2464" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="44" lean-forward="false" selection-start-line="118" selection-start-column="20" selection-end-line="147" selection-end-column="44" />
+        <state relative-caret-position="539">
+          <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar3D.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
           <folding>
-            <element signature="e#5571#7533#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="160" column="28" lean-forward="true" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scatterMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3801">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" column="82" lean-forward="false" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="395">
+          <caret line="151" column="75" lean-forward="false" selection-start-line="151" selection-start-column="75" selection-end-line="151" selection-end-column="75" />
           <folding />
         </state>
       </provider>

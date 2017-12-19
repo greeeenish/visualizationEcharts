@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exp</title>
+    <script src="js/echarts.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <style>
+        #exp{
+            margin-top: 90px;
+            height: 80%;
+            width: 80%;
+            padding-left: 250px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="exp"></div>
+
+<script>
+    var myChart = echarts.init(document.getElementById('exp'));
+    var timeData = ["北京", "天津", "上海", "南京", "无锡", "杭州", "合肥", "福州", "厦门", "济南", "郑州","武汉","广州","深圳","成都"];
+    var option={
+        title: {
+            text: '2017年11月份热点城市住宅销售价格变动情况',
+            subtext: '数据来自国家统计局',
+            x: 'center',
+            textStyle: {
+                color: '#d5d9dc'
+            },
+        },
+        color:[
+            '#ffe65e',
+            '#e7b7be',
+            '#61a0a8',
+            '#d48265',
+            '#91c7ae',
+            '#749f83',
+            '#ca8622',
+            '#bda29a',
+            '#6e7074',
+            '#546570',
+            '#c4ccd3'
+        ],
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                animation: false
+            }
+        },
+        legend: {
+            data:['同比','环比'],
+            x: 'left'
+        },
+        toolbox: {
+            feature: {
+                dataZoom: {
+                    yAxisIndex: 'none'
+                },
+                restore: {},
+                saveAsImage: {}
+            }
+        },
+        axisPointer: {
+            link: {xAxisIndex: 'all'}
+        },
+        dataZoom: [
+            {
+                show: true,
+                realtime: true,
+                start: 30,
+                end: 70,
+                xAxisIndex: [0, 1]
+            },
+            {
+                type: 'inside',
+                realtime: true,
+                start: 30,
+                end: 70,
+                xAxisIndex: [0, 1]
+            }
+        ],
+        grid: [{
+            left: 50,
+            right: 50,
+            height: '35%'
+        }, {
+            left: 50,
+            right: 50,
+            top: '55%',
+            height: '35%'
+        }],
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : true,
+                axisLine: {onZero: true},
+                data: timeData,
+                axisLabel: {
+                    show: true,
+                    textStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+            },
+            {
+                gridIndex: 1,
+                type : 'category',
+                boundaryGap : true,
+                axisLine: {onZero: true},
+                data: timeData,
+                position: 'top',
+                axisLabel: {
+                    show: true,
+                    textStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+            }
+        ],
+        yAxis : [
+            {
+                name : '环比增长指数',
+                type : 'value',
+                min : 98,
+                max : 107,
+                axisLabel: {
+                    show: true,
+                    textStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+            },
+            {
+                gridIndex: 1,
+                name : '同比增长指数',
+                type : 'value',
+                min : 99,
+                max : 101,
+                inverse: true,
+                axisLabel: {
+                    show: true,
+                    textStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: '#d5d9dc'
+                    }
+                },
+            }
+        ],
+        series : [
+            {
+                name:'同比',
+                type:'bar',
+                barWidth:10,
+                symbolSize: 8,
+                hoverAnimation: false,
+                itemStyle: {
+                    normal: {
+                        barBorderRadius: 3,
+                    }
+                },
+                data:[
+                    99.7,99.8,99.7,98.5,98.7,99.4,99.7,98.2,102.3,100.3,99.0,100.1,106.6,96.8,98.7
+                ],
+                areaStyle: {normal: {}},
+            },
+            {
+                name:'环比',
+                type:'bar',
+                barWidth:10,
+                xAxisIndex: 1,
+                yAxisIndex: 1,
+                symbolSize: 8,
+                hoverAnimation: false,
+                itemStyle: {
+                    normal: {
+                        barBorderRadius: 3,
+                    }
+                },
+                data: [
+                    100.0,99.7,100.0,99.8,99.8,99.9,100.1,100.2,100.2,99.9,100.0,100.0,99.9,99.8,100.1
+                ],
+                areaStyle: {normal: {}},
+            }
+
+
+        ]
+
+    };
+
+    myChart.setOption(option);
+</script>
+
+
+</body>
+</html>
