@@ -7,7 +7,7 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/echarts.js"></script>
     <script src="js/bmap.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=53oVIOgmSIejwV7EfphPgTynOZbIiVYu"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=1BTCfGmikVR1kWGF8dIdloqG3lVGGgr6"></script>
     <script src="easydialog/easydialog.js"></script>
 </head>
 <style>
@@ -349,52 +349,8 @@
     };
 
     myChart.setOption(option);
-
-    //点击事件
-    myChart.on('click', function (params) {
-        var city = params.name;
-        //为了效果明显，我们做了延迟读取数据
-        var lineChart = echarts.init(document.getElementById('line-wrap'));
-        document.getElementById('easyDialogTitle').innerHTML = '<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn"><img src="images/close.png"></a>'+
-        city+'房价趋势';
-        lineChart.setOption(optionLine);
-        lineChart.showLoading();
-        setTimeout(function(){
-            //异步加载数据
-            $.get('data/'+city+'.json').done(function (data) {
-                //获取数据后，隐藏loading动画
-                lineChart.hideLoading();
-                //data = eval('('+data+')');
-                lineChart.setOption({
-                    xAxis:{
-                        data: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月","12月"]
-                    },
-                    series:[
-                        {
-                            //根据名字对应到相应的系列
-                            name:"2017年",
-                            data:data[0].price
-                        },
-                        {
-                            //根据名字对应到相应的系列
-                            name:"2016年",
-                            data:data[1].price
-                        },
-                        {
-                            //根据名字对应到相应的系列
-                            name:"2015年",
-                            data:data[2].price
-                        }
-                    ]
-                })
-            })
-        },2000);
-        easyDialog.open({
-            container: 'easyDialogWrapper',
-
-        });
-
-    });
+    var map = myChart.getModel().getComponent('bmap').getBMap();
+    map.enableMapClick = false;
 
     //折线图
     var optionLine = {
@@ -542,11 +498,53 @@
             }]
     };
 
-
-
-
-
     
+    //点击事件
+    myChart.on('click', function (params) {
+        var city = params.name;
+        //为了效果明显，我们做了延迟读取数据
+        var lineChart = echarts.init(document.getElementById('line-wrap'));
+        document.getElementById('easyDialogTitle').innerHTML = '<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn"><img src="images/close.png"></a>'+
+        city+'房价趋势';
+        lineChart.setOption(optionLine);
+        lineChart.showLoading();
+        setTimeout(function(){
+            //异步加载数据
+            $.get('data/'+city+'.json').done(function (data) {
+                //获取数据后，隐藏loading动画
+                lineChart.hideLoading();
+                //data = eval('('+data+')');
+                lineChart.setOption({
+                    xAxis:{
+                        data: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月","12月"]
+                    },
+                    series:[
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2017年",
+                            data:data[0].price
+                        },
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2016年",
+                            data:data[1].price
+                        },
+                        {
+                            //根据名字对应到相应的系列
+                            name:"2015年",
+                            data:data[2].price
+                        }
+                    ]
+                })
+            })
+        },2000);
+        easyDialog.open({
+            container: 'easyDialogWrapper',
+
+        });
+
+    });
+
 </script>
 
 </body>
