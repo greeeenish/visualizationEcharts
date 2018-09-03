@@ -16,15 +16,14 @@ $(function(){
     });
     //nav-mini切换
     $('#mini').on('click',function(){
-        if (!$('.nav').hasClass('nav-mini')) {
+        if (!$('.nav').hasClass('nav-mini')) {  //展开的时候
             $('.nav-item.nav-show').removeClass('nav-show');
-            //$('.main.main_active').removeClass('main_active');
             $('.nav-item').children('ul').removeAttr('style');
             $('.nav').addClass('nav-mini');
-            //$('.main').addClass('main_active');
-        }else{
+            $('#main').css('margin-left','60px')
+        }else{  //收缩的时候
             $('.nav').removeClass('nav-mini');
-            //$('.main').removeClass('main_active');
+            $('#main').css('margin-left','220px')
         }
     });
 });

@@ -11,37 +11,53 @@
 </head>
 
 <style>
+    .container {
+        width: 100%;
+        clear: both;
+        /*display: flex;*/
+
+    }
+
     .map-warp{
-        width: 95%;
-        height: 95%;
-        position: relative;
+        width: 65%;
+        height: 100%;
         z-index: 6;
+        float: left;
 
     }
     .line-warp{
-        width: 400px;
-        height: 380px;
-        position: relative;
-        bottom: 68%;
-        left: 1030px;
-        /*margin-left: 1020px;*/
-        right: 0;
+        width: 30%;
+        height: 40%;
         z-index: 10;
+        float: left;
+        position: relative;
+        top: 30%;
+        left: -12%;
 
     }
 
 </style>
 <body>
 
+<div class="container">
     <!--地图容器-->
     <div class="map-warp" id="map-warp"></div>
     <!--折线图容器-->
     <div class="line-warp" id="line-warp"></div>
+</div>
+
+
 
 <!--视图渲染-->
 <script type="text/javascript">
     var mapChart = echarts.init(document.getElementById('map-warp'),'shine');
     var lineChart = echarts.init(document.getElementById('line-warp'),'shine');
+
+    //多个图表
+    window.addEventListener("resize", () => {
+        mapChart.resize();
+        lineChart.resize();
+    });
 
     <!--echarts map-warp视图渲染-->
     var option = {
@@ -287,7 +303,7 @@
     };
     lineChart.setOption(lineoption);
 
-    echarts.connect([mapChart,lineChart]);
+    echarts.connect([mapChart,lineChart]);  //图表联动
 
 
     mapChart.on('click', function (param){
