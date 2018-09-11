@@ -19,11 +19,17 @@ $(function(){
         if (!$('.nav').hasClass('nav-mini')) {  //展开的时候
             $('.nav-item.nav-show').removeClass('nav-show');
             $('.nav-item').children('ul').removeAttr('style');
+            $('#main').css('padding-left','60px')
+            $('#main').css('transition','all 0.3s')
             $('.nav').addClass('nav-mini');
-            $('#main').css('margin-left','60px')
+
+
         }else{  //收缩的时候
+            $('#main').css('padding-left','220px')
+            $('#main').css('transition','all 0.3s')
             $('.nav').removeClass('nav-mini');
-            $('#main').css('margin-left','220px')
+
+
         }
     });
 });
