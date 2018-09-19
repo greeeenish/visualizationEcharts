@@ -1,1 +1,1 @@
-https://greeeenish.github.io/visualizationEcharts/.
+https://greeeenish.github.io/visualizationEcharts/index.html
